@@ -1,0 +1,13 @@
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: orders
+   partitions: NULL
+         type: range
+possible_keys: idx_orders_purchase_ts
+          key: idx_orders_purchase_ts
+      key_len: 6
+          ref: NULL
+         rows: 44724
+     filtered: 100.00
+        Extra: Using where; Using index

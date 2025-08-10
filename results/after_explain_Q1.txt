@@ -1,0 +1,13 @@
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: order_payments
+   partitions: NULL
+         type: range
+possible_keys: idx_payments_value
+          key: idx_payments_value
+      key_len: 6
+          ref: NULL
+         rows: 37758
+     filtered: 100.00
+        Extra: Using where; Using index

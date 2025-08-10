@@ -1,0 +1,26 @@
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: i
+   partitions: NULL
+         type: range
+possible_keys: PRIMARY,idx_items_freight
+          key: idx_items_freight
+      key_len: 6
+          ref: NULL
+         rows: 9596
+     filtered: 100.00
+        Extra: Using where; Using index; Using temporary
+*************************** 2. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: o
+   partitions: NULL
+         type: eq_ref
+possible_keys: PRIMARY,idx_orders_status
+          key: PRIMARY
+      key_len: 130
+          ref: olist.i.order_id
+         rows: 1
+     filtered: 100.00
+        Extra: NULL

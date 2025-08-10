@@ -1,0 +1,7 @@
+Q1_big_payments: 0.0040s
+Q2_orders_2017: 0.0098s
+Q3_sum_by_type: 0.2667s
+Q4_join_freight_gt_50: 0.0170s
+Q5a_review_like_entrega: 0.0672s
+Q5b_review_match_entrega: 0.0021s
+Q6_match_boolean_entrega_atraso: 0.0034s

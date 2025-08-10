@@ -1,0 +1,2 @@
+EXPLAIN
+{\n  "query_block": {\n    "select_id": 1,\n    "message": "Select tables optimized away"\n  }\n}

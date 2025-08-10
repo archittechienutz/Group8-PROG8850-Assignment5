@@ -173,4 +173,14 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-bin
+bin# Ignore dataset & local archives
+data/
+archive.zip
+# Python/cache
+__pycache__/
+*.pyc
+# OS/editor
+.DS_Store
+.vscode/
+# Build zips
+*.zip
